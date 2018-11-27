@@ -23,11 +23,11 @@ void init();
 Car get_car (enum CarType type);
 CarType get_type (Car car);
 Color get_color (Car car);
-float get_fill_level( Car car);
-float get_acceleration_rate ( Car car);
+double get_fill_level( Car car);
+double get_acceleration_rate ( Car car);
 void set_acceleration_rate(Car car, float speed);
-int get_speed(Car car);
+double get_speed(Car car);
 void accelerate (Car car);
-int round(float speed);
+
 
 #endif
